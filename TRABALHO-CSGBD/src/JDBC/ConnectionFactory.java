@@ -11,7 +11,7 @@ public class ConnectionFactory {
 	     try {
 	    	 Class.forName("org.postgresql.Driver");
 	         return DriverManager.getConnection(
-	 "jdbc:postgresql://localhost:5432/Trabalho", "postgres","postgres");
+	 "jdbc:postgresql://localhost:5432/TrabalhoCSGBD", "postgres","root");
 	     } catch (SQLException e) {
 	         throw new RuntimeException(e);
 	     }
